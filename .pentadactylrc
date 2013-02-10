@@ -1,0 +1,29 @@
+"hg6883
+
+loadplugins '\.(js|penta)$'
+group user
+
+"Key Mappings
+
+map -count -modes=i,n,v <C-f> -builtin <count><Pass>
+map -count -modes=i,n,v <C-c> -builtin <count><Pass>
+map -count -modes=i,n,v <C-v> -builtin <count><Pass>
+map -count -modes=i,n,v <C-x> -builtin <count><Pass>
+map -count -modes=i,n,v <C-d> -builtin <count><Pass>
+map -count -modes=i,n,v <C-t> -builtin <count><Pass>
+map -count -modes=i,n,v <C-w> -builtin <count><Pass>
+map -count -modes=i,n,v <C-a> -builtin <count><Pass>
+map -count -modes=i,n,v <C-S-V> -builtin <count><Pass>
+map -count -modes=i,n,v <C-S-C> -builtin <count><Pass>
+map -count -modes=i,n,v . -builtin <count><Pass>
+map -count -modes=i,n,v n -builtin <count><Pass>
+nmap pt :pintab! <CR>
+set guioptions=bCBnr
+set showtabline=multitab
+
+" vim: set ft=pentadactyl:
+
+"Passkeys
+
+set passkeys+="https://mail\.google\.com/":jkg
+"set passkeys+="https://twitter\.com/":jkg/?.nrm
